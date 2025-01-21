@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Info</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- Fixed Search Bar at the top -->
+  <header class="header">
+    <h1>PokédInfo</h1>
+    <div class="search-container">
+      <input type="text" id="pokemonName" placeholder="Enter Pokémon name" />
+      <button onclick="fetchPokemon()">Learn Facts</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="pokemonInfo" class="pokemon-info"></div>
+    <img src="arrows.png" alt="Navigation Arrows" class="arrows" />
+    <img src="greencirc.png" alt="Green Circle" class="circle-icon green-circle" />
+    <img src="redcirc.png" alt="Red Circle" class="circle-icon red-circle" />
+    <!-- This is where Pokémon info will appear -->
+    <div class="rectangle-box">
+      <h3>Click a Pokémon for more info:</h3>
+      <div id="random-pokemon-list">
+        <!-- Random Pokémon will be injected here by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
