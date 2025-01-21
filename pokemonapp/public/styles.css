@@ -323,32 +323,32 @@ body::before {
   /* Container (for centering on mobile) */
   .container {
     display: flex;
-    justify-content: center; /* Horizontally centers content */
-    align-items: center; /* Vertically centers content */
-    flex-direction: column; /* Stack elements vertically */
-    height: auto; /* Allow container to grow with content */
-    margin-top: 50px; /* Margin between header and content */
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: auto; 
+    margin-top: 50px; 
     padding: 20px;
     width: 100%;
-    max-width: 500px; /* Restrict max-width for better layout */
+    max-width: 500px; 
     margin-left: auto;
     margin-right: auto;
-    gap: 20px; /* Ensure spacing between child elements */
+    gap: 20px;
   }
 
   /* Pokémon Info Section */
   .pokemon-info {
     display: flex;
-    flex-direction: column; /* Stack contents vertically */
-    align-items: center; /* Horizontally center content inside */
+    flex-direction: column; 
+    align-items: center; 
     justify-content: center;
-    width: 90%; /* Ensure responsive width */
+    width: 90%; /* Ensure responsive width 
     max-width: 350px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin: 0 auto; /* Center this element */
+    margin: 0 auto; 
   }
 
   .pokemon-info h2,
